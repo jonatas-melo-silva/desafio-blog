@@ -9,7 +9,7 @@ export type PublicProps = ComponentProps<'div'>
 
 export function Public({ className, ...props }: PublicProps) {
   return (
-    <div className={twMerge(base, className)} {...props}>
+    <div className={twMerge(base, 'dark:bg-neutral-950', className)} {...props}>
       <Templates.Header />
 
       <main className="flex h-full w-full flex-col gap-6 px-5 py-12 md:max-w-[1216px]">

@@ -1,7 +1,7 @@
 import { ComponentProps } from 'react'
 import { ClassNameValue, twMerge } from 'tailwind-merge'
 
-const base = 'rounded-md bg-white p-4 shadow' as ClassNameValue
+const base = 'rounded-lg bg-white p-4 shadow' as ClassNameValue
 
 export type RootProps = ComponentProps<'section'>
 
