@@ -1,3 +1,10 @@
+import { Layouts } from './layouts'
+import { Home } from './pages'
+
 export function App() {
-  return <div>Desafio blog</div>
+  return (
+    <Layouts.Public>
+      <Home />
+    </Layouts.Public>
+  )
 }
